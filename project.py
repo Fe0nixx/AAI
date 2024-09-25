@@ -6,8 +6,8 @@ import json
 import plotly.express as px
 
 # File paths
-USER_DB_FILE = "C://Users//Siddharth//OneDrive//Desktop//streamlit//users.json"
-MARKS_DB_FILE = "C://Users//Siddharth//OneDrive//Desktop//streamlit//marks.csv"
+USER_DB_FILE = "users.json"
+MARKS_DB_FILE = "marks.csv"
 
 # Helper function to hash the password
 def hash_password(password):
